@@ -5,7 +5,7 @@
 	import { setupI18n } from "../services/i18n";
 	import { Toaster } from "svelte-french-toast";
 
-	setupI18n({ withLocale: "es" });
+	setupI18n({ withLocale: "en" });
 </script>
 
 <div
