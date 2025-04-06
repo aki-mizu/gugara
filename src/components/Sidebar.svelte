@@ -62,7 +62,7 @@
                     />
                 </svelte:fragment>
             </SidebarItem>
-            <SidebarItem label={$_("articles.title")} href="/articles" {spanClass}>
+            <SidebarItem label={$_("articles.title")} href="https://lostinbitcoin.jp" target="_blank" {spanClass}>
                 <svelte:fragment slot="icon">
                     <FilePenSolid
                         class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
@@ -90,7 +90,7 @@
                     />
                 </svelte:fragment>
             </SidebarItem>
-            <SidebarItem label={$_("convert.title")} href="/convert" {spanClass}>
+            <SidebarItem label={$_("convert.title")} href="https://osats.money" target="_blank" {spanClass}>
                 <svelte:fragment slot="icon">
                     <CashSolid
                         class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
