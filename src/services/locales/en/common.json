@@ -7,8 +7,8 @@
 	"home": "Home",
 	"sats": "sats",
 	"about": {
-		"welcome": "Ongi etorri! 🤙",
-		"body": "es un espacio abierto de intercambio y aprendizaje. Surgió de manera bastante espontánea al juntarse unos pocos bitcoinerrak mayormente a través de esa maravilla que es nostr para estar conectados compartiendo conocimientos y experiencias para aprender los unos de los otros mediante el estudio y el uso de herramientas. No hay una estructura definida, nos basamos en permanecer conectados entre nosotros tanto en línea como en encuentros periódicos.Por un lado vamos comentando lo que vamos haciendo cada uno de nosotros y sobre lo que nos vendría bien hablar y por otro hacemos puestas en común en los encuentros comentando avances y hablando sobre algo que hayamos concretado. El contacto permanente posibilita la cooperación resolviendo necesidades dentro del propio grupo, cada uno aporta lo que puede y se va creando esa infrastuctura a disposicion de todos."
+		"welcome": "Welcome! 🤙",
+		"body": "is an open space for exchange and learning. It emerged quite spontaneously when a few bitcoinerrak (Bitcoin enthusiasts) came together—mostly through that wonderful tool, Nostr—to stay connected, share knowledge and experiences, and learn from one another through studying and using different tools.\n\nThere’s no defined structure; we rely on staying connected with each other both online and through regular meetups. On the one hand, we share what each of us is working on and what topics we’d like to talk about. On the other hand, we hold group discussions during our meetups, sharing progress and diving into specific topics we've agreed on.\n\nThis ongoing contact enables cooperation and helps address needs within the group. Everyone contributes what they can, and in doing so, we gradually build an infrastructure that’s available to everyone."
 	},
 	"signin": {
 		"signin": "Sign in",

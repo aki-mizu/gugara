@@ -15,12 +15,12 @@
 		{$_("about.welcome")}
 	</h5>
 	<p class="font-normal leading-tight text-gray-700 dark:text-gray-400">
-		<a id="popover-0" href="/u/{user.npub}"
-			><span class="font-bold hover:underline decoration-dotted"
-				>{PUBLIC_NAME}</span
-			>
+		<a id="popover-0" href="/u/{user.npub}">
+			<span class="font-bold hover:underline decoration-dotted">
+				{PUBLIC_NAME}
+			</span>
 		</a>
-		{$_("about.body")}
+		<span> {@html $_("about.body").replace(/\n\n/g, "</p><p>").replace(/\n/g, "<br>")}</span>
 	</p>
 	<Popover {user} />
 </Card>

@@ -8,10 +8,10 @@
 </script>
 
 <svelte:head>
-	<title>Bitcoin Txoko</title>
+	<title>Bitcoin Tokyo</title>
 	<meta
 		name="description"
-		content={`Bitcoin Txoko, a bitcoin and nostr community in Euskadi.`}
+		content={`Bitcoin Tokyo, a Bitcoin and Nostr community in East Asia`}
 	/>
 </svelte:head>
 <main>
@@ -20,9 +20,9 @@
 		<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 			<Meetups />
 			<Mint />
-			<Node />
-			<Apps />
+			<!-- <Node />
+			<Apps /> -->
 		</div>
-		<Onboarding />
+		<!-- <Onboarding /> -->
 	</div>
 </main>

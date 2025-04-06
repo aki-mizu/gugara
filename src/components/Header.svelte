@@ -31,7 +31,7 @@
     <NavBrand href="/" class="mx-auto">
       <img
         src="/logo.webp"
-        class="h-10 sm:h-12 me-3"
+        class="h-16 sm:h-20 me-3"
         alt="Bitcoin Txoko Logo"
       />
     </NavBrand>
