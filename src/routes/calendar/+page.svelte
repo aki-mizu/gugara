@@ -36,7 +36,7 @@
 	/>
 </svelte:head>
 <main class="flex flex-row flex-wrap justify-center items-start my-4 mx-4">
-	<section class="gap-6">
+	<section class="gap-6 w-full">
 		{#each $events as event}
 			<div class="my-4 space-y-4">
 				<Card
