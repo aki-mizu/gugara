@@ -13,6 +13,8 @@
         showShareModal = false;
     };
 
+    const baseUrl = window.location.origin; // Get the host URL dynamically
+
     let items = [
         {
             title: $_("share.embed"),
@@ -28,7 +30,7 @@
         },
         {
             title: $_("share.page"),
-            link: "https://gugara.bitcointxoko.com/calendar/",
+            link: `${baseUrl}/calendar/`, // Prepend host URL to the relative path
             description: $_("share.pageHelp"),
             copied: false,
         },
