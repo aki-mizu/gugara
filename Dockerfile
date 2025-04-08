@@ -10,8 +10,9 @@ COPY flake.nix .
 # Copy package.json and pnpm-lock.yaml into the container
 COPY package.json pnpm-lock.yaml ./
 
-# Install the dependencies defined in the flake.nix file and run pnpm install within the nix develop environment
-RUN nix develop --impure --extra-experimental-features nix-command --extra-experimental-features flakes --command pnpm install --frozen-lockfile
+# Install dependencies and build the project in a single nix develop command
+RUN nix develop --impure --extra-experimental-features nix-command --extra-experimental-features flakes --command \
+    pnpm install --frozen-lockfile && pnpm run build
 
 # Copy the rest of your project files into the container
 COPY . .
