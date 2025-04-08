@@ -31,8 +31,13 @@
     <NavBrand href="/" class="mx-auto">
       <img
         src="/logo.webp"
-        class="h-16 sm:h-20 me-3"
-        alt="Bitcoin Txoko Logo"
+        class="h-16 sm:h-20 me-3 block dark:hidden"
+        alt="Bitcoin Tokyo Logo"
+      />
+      <img
+        src="/logo-dark.webp"
+        class="h-16 sm:h-20 me-3 hidden dark:block"
+        alt="Bitcoin Txkyo Logo (Dark Mode)"
       />
     </NavBrand>
     <DarkMode />
